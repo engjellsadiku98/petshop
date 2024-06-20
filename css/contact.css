@@ -449,18 +449,18 @@ footer{
   }
   .top{
     font-size: 12px;
-    padding-right: 60px;
+
   }
   .logo{
     position: relative;
-    right: 125px;
+    right: 100px;
     width: 150px;
   }
   .search{
     font-size: 14px;
     position: relative;
     bottom: 30px;
-    left: 30px;
+    left: 40px;
   }
   .line{
     width: 500px;
@@ -486,29 +486,24 @@ footer{
   }
   .contactus{
     font-size: 30px;
-    padding-right: 70px;
+    padding-right: px;
   }
   .questions{
     font-size: 20px;
     width: 400px;
-    padding-right: 70px;
   }
   .name{
-    margin-right: 70px;
   }
   .names{
     width: 190px;
-    margin-right: 10px;
   }
   .email1{
     width: 190px;
   }
   .message{
     width: 350px;
-    margin-right: 75px;
   }
   .send{
     width: 350px;
-    margin-right: 75px;
   }
 } 
