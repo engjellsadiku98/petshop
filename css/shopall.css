@@ -1,0 +1,718 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.top{
+    text-align: center;
+    background-color: #C24D2C;
+    color: #D9DAD7;
+    padding: 5px;
+}
+
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.petshop{
+    margin-left: 100px;
+}
+
+.search{
+    margin-right: 100px;
+    margin-top: 50px;
+
+}
+
+
+.search1{
+    border: 1px solid;
+    width: 253px;
+    height: 43px;
+    padding: 10px 20px;
+    border-radius: 61px;
+    background-color: #C24D2C;
+    color: #D9DAD7;
+}
+
+.left1{
+    border-top-right-radius: 61px;
+    border-bottom-right-radius: 61px;
+    background-color: #D9DAD7;
+    width: 44px;
+    height: 43px;
+    position: relative;
+    bottom: 43px;
+    left: 210px;
+}
+
+.fa-magnifying-glass{
+    font-size: 20px;
+    padding: 12px;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #D9DAD7;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+ul{
+    display: flex;
+}
+
+
+
+li a, .dropdown a{
+    margin-left: 20px;
+    color: #1A2639;
+    font-weight: 600;
+}
+
+
+
+li a:hover, .dropdown a:hover{
+    color: #C24D2C;
+    transition: all 0.2s ease;
+}
+
+.login{
+    margin-right: 100px;
+}
+
+.log{
+    font-size: 19px;
+    font-weight: 500;
+    color: #1A2639;
+}
+
+.fa-user{
+    margin-right: 15px;
+    position: relative;
+    top: 4px;
+    font-size: 30px;
+}
+
+.dog{
+    margin-top: 40px;
+    color: #1A2639;
+    margin-left: 40px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.yourdog{
+    font-size: 20px;
+    color: #1A2639;
+    font-weight: 600;
+    margin-left: 40px;
+    line-height: 25px;
+}
+
+.color{
+    color: #1A2639;
+    margin: 10px;
+    font-weight: 600;
+}
+
+
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: #C24D2C;
+    margin-left: 100px;
+
+}
+
+.paragraf{
+    width: 300px;
+    color: #1A2639;
+    margin-top: 40px;
+    font-weight: 600;
+    margin-left: 40px;
+    font-size: 18px;
+}
+
+.foods{
+    margin-left: 100px;
+}
+
+
+.content{
+    display: flex;
+    align-items: center;
+}
+
+.dropbtn {
+    color: #1A2639;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 1500px;
+    height: 400px;
+    background-color:#D9DAD7;
+    z-index: 1;
+    margin-top: 40px;
+}
+  
+.dropdown-content a {
+    color: #1A2639;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+ 
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+
+.right{
+    display: flex;
+}
+
+.left{
+    margin-left: 100px;
+}
+
+.labrador{
+    margin-left: 50px;
+}
+
+
+.all{
+    text-align: center;
+    color: #1A2639;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.div{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.home{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.div1{
+    display: flex;
+    margin-top: 85px;
+    margin-right: 130px;
+    align-items: center;
+}
+
+
+.div2{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 100px;
+    color: #1A2639;
+}
+
+.div3{
+    display: flex;
+    margin-left: 200px;
+    gap: 25px;
+}
+
+.box1{
+    width: 220px;
+    height: 45px;
+    padding: 10px;
+    padding-left: 15px;
+    font-size: 15px;
+    color: #1A2639;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.fa-angle-down{
+    float: right;
+    padding: 6px;
+}
+
+.sort{
+    margin-right: 20px;
+
+}
+
+.byall{
+    width: 220px;
+    height: 40px;
+    padding: 7px;
+    border: 1px solid #D9DAD7;
+}
+
+.produtcs{
+    padding-left: 110px;
+    padding-top: 40px;
+    color: #1A2639;
+    display: flex;
+}
+
+
+
+.produtcs a{
+    color: #1A2639;
+}
+
+
+.produtcs p{
+    display: flex;
+    cursor: pointer;
+}
+
+
+span{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    border: 2px solid #D9DAD7;
+    margin: 5px 10px;
+    cursor: pointer;
+
+}
+
+span:hover{
+    border: none;
+    background-color: #C24D2C;
+}
+
+.div6{
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.photos {  
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-areas:
+      "Grid-1 Grid-2 Grid-3"
+       "Grid-4 Grid-5 Grid-6"
+       ". . .";
+       margin-left: 300px;
+      grid-gap: 60px;
+}
+
+.Grid-1{
+  width: 300px;
+  height: 500px;
+  background: url(..//img/shampoo.png);
+  background-repeat: no-repeat;
+  grid-area: Grid-1;
+  
+}
+
+.Grid-2{
+  width: 300px;
+  height: 500px;
+  background: url(..//img/dogshampoo.png);
+  background-repeat: no-repeat;
+  grid-area: Grid-2;
+}
+
+.Grid-3{
+  width: 300px;
+  height: 500px;
+  background: url(..//img/skindog.png);
+  background-repeat: no-repeat;
+  grid-area: Grid-3;
+}
+
+.Grid-4{
+  width: 300px;
+  height: 500px;
+  background: url(..//img/toothpaste.png);
+  background-repeat: no-repeat;
+  grid-area: Grid-4;
+}
+
+.Grid-5{
+  width: 300px;
+  height: 500px;
+  background: url(..//img/neatdog.png);
+  background-repeat: no-repeat;
+  grid-area: Grid-5;}
+
+.Grid-6{
+  width: 300px;
+  height: 500px;
+  background: url(..//img/ear.png);
+  background-repeat: no-repeat;
+  grid-area: Grid-6;
+}
+
+.shampo{
+  position: relative;
+  top: 365px;
+  text-align: center;
+  font-weight: 500;
+  color: #1A2639;
+}
+
+.peach{
+  position: relative;
+  top: 365px;
+  left: 10px;
+  text-align: center;
+  font-weight: 500;
+  color: #1A2639;
+}
+
+.skin{
+  position: relative;
+  top: 365px;
+  left: 10px;
+  text-align: center;
+  font-weight: 500;
+  color: #1A2639;
+}
+
+
+.paste{
+  position: relative;
+  top: 365px;
+  text-align: center;
+  font-weight: 500;
+  color: #1A2639;
+}
+
+.neatdog{
+  position: relative;
+  top: 365px;
+  left: 5px;
+  text-align: center;
+  font-weight: 500;
+  color: #1A2639;
+}
+
+.Ear{
+  position: relative;
+  top: 365px;
+  left: 50px;
+  text-align: center;
+  font-weight: 500;
+  color: #1A2639;
+}
+
+
+
+.price1{
+  position: relative;
+  top: 370px;
+  left: 125px;
+  color: #1A2639;
+}
+
+.price2{
+  position: relative;
+  top: 370px;
+  left: 125px;
+  color: #1A2639;
+}
+
+.price3{
+  position: relative;
+  top: 370px;
+  left: 125px;
+  color: #1A2639;
+}
+
+.price4{
+  position: relative;
+  top: 370px;
+  left: 125px;
+  color: #1A2639;
+}
+
+.price5{
+  position: relative;
+  top: 370px;
+  left: 125px;
+  color: #1A2639;
+}
+.price6{
+  position: relative;
+  top: 370px;
+  left: 125px;
+  color: #1A2639;
+}
+
+footer{
+  width: 100%;
+  height: 450px;
+  background-color: #C24D2C;
+  display: flex;
+  align-items: center;
+}
+
+.left4{
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  padding-top: 100px;
+}
+
+.flagship{
+  font-size: 25px;
+  font-weight: 700;
+  color: #1A2639;
+}
+
+.kosovo{
+  margin-top: 15px;
+  color: #1A2639;
+  font-weight: 500;
+
+}
+
+.number{
+  color: #1A2639;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.stores{
+  margin-top: 100px;
+  color: #1A2639;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration:underline;
+  cursor: pointer;
+}
+
+.stores:hover{
+color: #3E4A61;
+}
+
+
+.shopes{
+  font-size: 20px;
+  color: #1A2639;
+  margin-top: 15px;
+  font-weight: 500;
+  cursor: pointer;
+
+}
+
+.shopes:hover{
+color: #3E4A61;
+}
+
+.colors{
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 20px;
+  color: #1A2639;
+  cursor: pointer;
+}
+
+.colors:hover{
+color: #3E4A61;
+}
+
+.infobold{
+  font-size: 20px;
+  color: #1A2639;
+  margin-bottom: 30px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.infobold:hover{
+color: #3E4A61;
+}
+
+.story{
+  font-size: 20px;
+  color: #1A2639;
+  margin-top: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.story:hover{
+color: #3E4A61;
+}
+
+.special{
+  font-size: 20px;
+  font-weight: 700;
+  color: #1A2639;
+}
+
+.email{
+  margin-top: 20px;
+  color: #1A2639;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.emailadresse{
+  width: 300px;
+  height: 45px;
+  background-color: #D9DAD7;
+}
+
+.subscribe{
+  width: 300px;
+  height: 45px;
+  background-color: #1A2639;
+  margin-top: 10px;
+  text-align: center;
+  padding-top: 10px;
+  color: #D9DAD7;
+}
+
+.subscribe:hover{
+  
+}
+
+.bestie{
+  color: #1A2639;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+.copyright{
+  width: 100%;
+  background-color: #1A2639;
+  color: #D9DAD7;
+  text-align: center;
+  padding: 5px;
+}
+
+.fa-brands{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  color: #1A2639;
+}
+
+
+@media (max-width:480px){
+  header{
+    display: flex;
+    flex-direction: column;
+  }
+  .top{
+    font-size: 12px;
+    padding-left: 20px;
+  }
+  .logo{
+    position: relative;
+    right: 75px;
+    width: 150px;
+  }
+  .search{
+    font-size: 14px;
+    position: relative;
+    bottom: 30px;
+    left: 55px;
+  }
+  .line{
+    width: 500px;
+  }
+  ul{
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    display: none;
+  }
+  .login{
+    display: none;
+  }
+  .dropbtn{
+    font-size: 13px;
+    position: relative;
+    display: none;
+  }
+  .div5{
+    position: relative;
+    right: 100px;
+
+  }
+  .box1{
+    position: relative;
+    right: 80px
+  }
+  .photos{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 510px;
+    top: 500px;
+
+
+  }
+  .Grid-1{
+    width: 300px;
+    height: 400px;
+  }
+  .Grid-2{
+    width: 300px;
+    height: 400px;
+    grid-area: Grid-2;
+  }
+  .Grid-3{
+    width: 300px;
+    height: 400px;
+    grid-area: Grid-3;
+  }
+  .Grid-4{
+    width: 300px;
+    height: 400px;
+    grid-area: Grid-4;
+  }
+  .Grid-5{
+    width: 300px;
+    height: 400px;
+    grid-area: Grid-5;
+  }
+  .Grid-6{
+    width: 300px;
+    height: 400px;
+    grid-area: Grid-6;
+  }
+  footer{
+    margin-top: 600px;
+  }
+}
+
+
+
